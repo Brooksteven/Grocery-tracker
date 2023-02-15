@@ -1,9 +1,9 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Kwik-E extends Model {}
+class List extends Model {}
 
-Kwik-E.init(
+List.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -35,8 +35,8 @@ Kwik-E.init(
     sequelize,
     freezeTableName: true,
     underscored: true,
-    modelName: 'Kwik-E',
+    modelName: 'List',
   }
 );
 
-module.exports = Kwik-E;
+module.exports = List;
