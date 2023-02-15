@@ -7,4 +7,5 @@ module.exports = {
       // Format large numbers with commas
       return parseInt(amount).toLocaleString();
     },
+    //emoji function for items**
   };
