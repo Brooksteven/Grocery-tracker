@@ -1,15 +1,9 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-<<<<<<<< HEAD:models/Items.js
 class Items extends Model {}
 
 Items.init(
-========
-class List extends Model {}
-
-List.init(
->>>>>>>> 758df52aedd72c4b93622134b1b0e1b42bee3f6c:models/groceryList.js
   {
     id: {
       type: DataTypes.INTEGER,
@@ -41,16 +35,8 @@ List.init(
     sequelize,
     freezeTableName: true,
     underscored: true,
-<<<<<<<< HEAD:models/Items.js
     modelName: 'Items',
   }
 );
 
 module.exports = Items;
-========
-    modelName: 'List',
-  }
-);
-
-module.exports = List;
->>>>>>>> 758df52aedd72c4b93622134b1b0e1b42bee3f6c:models/groceryList.js
