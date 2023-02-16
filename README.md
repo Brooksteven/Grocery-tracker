@@ -18,3 +18,39 @@ Our motive behind this project was initially to create an app that would allow t
 
 ## New Tech 
 A requirement of this assignment was to use a new technology that hadn't previously been used in class. Our group chose TestCafe to assist with end-to-end web testing. To utilize TestCafe for this app:
+
+
+STEP 1
+
+TC1.1 Complete steps A1.1 to A3.1, above. 
+
+STEP 2
+
+
+From your terminal, run:
+
+TC2.1 npm run seed
+
+STEP 3
+
+To run tests, you will need two terminals open.
+
+From Terminal 1, run:
+
+TC3.1 npm run watch
+
+From Terminal 2, run:
+
+TC3.2 npm run testcafe-ui
+
+TC3.3 TestCafe will open a browser window and run the programmed tests. Once tests are complete, Terminal 2 will show the tests run and passed.
+
+STEP 4
+
+From Visual Studio Code or the code editor of your choice:
+
+TC4.1 If you wish to run tests more than once, run the following from a new query tab before repeating the tests:
+
+USE grocerytracker_db;
+DELETE FROM user where email = 'Donald@King.com';
+SELECT * FROM user;
