@@ -1,36 +1,36 @@
 [
     {
-      "categoryName": "Produce",
+      "recipientName": "Produce",
       "description": "Strawberries",
       "purchased": false,
       "user_id": 1
     },
     {
-      "categoryName": "Meat",
+      "recipientName": "Meat",
       "description": "Ribeye",
       "purchased": false,
       "user_id": 2
     },
     {
-      "categoryName": "Beverages",
+      "recipientName": "Beverages",
       "description": "Pepsi",
       "purchased": false,
       "user_id": 3
     },
     {
-      "categoryName": "Bakerys",
+      "recipientName": "Bakerys",
       "description": "Bread",
       "purchased": false,
       "user_id": 1
     },
     {
-      "categoryName": "Health/Beauty",
+      "recipientName": "Health/Beauty",
       "description": "Toilet Paper",
       "purchased": false,
       "user_id": 2
     },
     {
-      "categoryName": "Snacks",
+      "recipientName": "Snacks",
       "description": "Chips",
       "purchased": false,
       "user_id": 3
