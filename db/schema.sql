@@ -1,2 +1,2 @@
-DROP DATABASE IF EXISTS grocerytracker_db;
-CREATE DATABASE grocerytracker_db;
+DROP DATABASE IF EXISTS groceryTracker_db;
+CREATE DATABASE groceryTracker_db;
