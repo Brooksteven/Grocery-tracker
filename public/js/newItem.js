@@ -1,7 +1,7 @@
 const saveNewItemHandler = async (event) => {
     event.preventDefault();
     // Collect values from the /newGift form
-    const recipientName = document.querySelector('#newitemName').value.trim();
+    const recipientName = document.querySelector('#newitemItee').value.trim();
     const description = document
       .querySelector('#newitemDescription')
       .value.trim();
@@ -39,9 +39,9 @@ const saveNewItemHandler = async (event) => {
   }
   
   document
-    .querySelector('.newItemForm')
+    .querySelector('#itemCancel')
     .addEventListener('reset', cancelButtonHandler);
   
   document
-    .querySelector('.newItemForm')
-    .addEventListener('submit', saveNewItemHandler);
+    .querySelector('#itemSave')
+    .addEventListener('click', saveNewItemHandler);
