@@ -1,5 +1,5 @@
 const cancelButtonHandler = async () => {
-    document.location.replace('/userlanding');
+    window.location.replace('/userlanding');
   }
   
   const newFormHandler = async (event) => {
@@ -24,7 +24,7 @@ const cancelButtonHandler = async () => {
       });
   
       if (response.ok) {
-        document.location.replace("/userlanding");
+        window.location.replace("/userlanding");
       } else {
         alert("Failed to update item");
       }
